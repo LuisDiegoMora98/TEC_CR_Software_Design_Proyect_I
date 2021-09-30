@@ -24,6 +24,7 @@ public class CharacterController {
     private final JSONLoader json;
     private ICreator factory;
     
+    // A commentary
     public CharacterController() throws IOException{
         this.json = JSONLoader.getInstance();
         this.factory = new CharacterPrototypeFactory();
